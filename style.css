@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.board {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  padding: 2rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  border: 2px solid #000000;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.control-sliders {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.control-select {
+  position: relative;
+  padding: 15px 10px 10px;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+}
+
+.control-select__btn {
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 7px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.control-select__btn:focus {
+  outline: none;
+}
+
+.control-select__btn.active {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.control-select label {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  padding: 2px;
+  background-color: #fff;
+}
+
+.slider {
+  margin: 20px 30px;
+}
+
+.ui-border-red {
+  border: 1px solid red !important;
+}
+
+.ui-border-green {
+  border: 1px solid green !important;
+}
+
+.ui-border-blue {
+  border: 1px solid blue !important;
+}
+
+.ui-red {
+  background: red;
+  transition: width 0.1s linear;
+}
+.ui-green {
+  background: green;
+  transition: width 0.1s linear;
+}
+.ui-blue {
+  background: blue;
+  transition: width 0.1s linear;
+}
+
+.ui-slider-handle {
+  cursor: pointer !important;
+  transition: left 0.1s linear;
+}

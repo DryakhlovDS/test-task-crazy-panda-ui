@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Panda board</title>
+  </head>
+  <body>
+    <header>
+      <h1>Panda board</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="control-select">
+          <label>Select:</label>
+          <button class="control-select__btn" data-target="color">Color</button>
+          <button
+            class="control-select__btn active"
+            data-target="background-color"
+          >
+            backgroundColor
+          </button>
+        </div>
+        <div class="center">
+          <div class="control-sliders">
+            <div id="sliderRed" class="slider"></div>
+            <div id="sliderGreen" class="slider"></div>
+            <div id="sliderBlue" class="slider"></div>
+          </div>
+          <div id="board" class="board">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+            nulla, eligendi perferendis provident voluptatum quos officia
+            facilis incidunt quasi nostrum mollitia ratione veritatis
+            praesentium, at odio dolores aliquam similique recusandae cupiditate
+            itaque, totam aspernatur. Suscipit doloribus cum eos laborum
+            distinctio.
+          </div>
+        </div>
+      </div>
+      <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+      <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
